@@ -69,13 +69,11 @@ Implements two models to estimate light pollution severity using environmental a
 
 ## 💡 How to Run
 
-### Satellite Image Processing:
+### Satellite Image Processing & Modeling:
 ```bash
 cd satellite_map_process
 python main.py
 
-### Modeling:
-```bash
 cd model
 python v1_model.py      # Run Model 1 (8-indicator)
 python v2_model.py      # Run Model 2 (refined 3-indicator)
